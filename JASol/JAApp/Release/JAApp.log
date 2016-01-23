@@ -1,0 +1,47 @@
+﻿Build started 2015-12-14 21:34:26.
+     1>Project "C:\Users\Julia\Documents\Visual Studio 2013\Projects\JASol\JAApp\JAApp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\JAApp.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\JAApp.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CPUInfo.cpp JAApp.cpp ObslugaDanych.cpp ObslugaDll.cpp ObslugaWatkow.cpp TworzenieWatkow.cpp
+         CPUInfo.cpp
+         JAApp.cpp
+     1>JAApp.cpp(132): warning C4018: '<' : signed/unsigned mismatch
+     1>JAApp.cpp(133): warning C4018: '<' : signed/unsigned mismatch
+     1>JAApp.cpp(188): warning C4018: '>' : signed/unsigned mismatch
+     1>JAApp.cpp(210): warning C4244: '=' : conversion from 'double' to 'unsigned __int64', possible loss of data
+     1>JAApp.cpp(216): warning C4018: '<' : signed/unsigned mismatch
+     1>JAApp.cpp(217): warning C4018: '<' : signed/unsigned mismatch
+     1>JAApp.cpp(218): warning C4018: '<' : signed/unsigned mismatch
+     1>JAApp.cpp(240): warning C4244: '=' : conversion from 'double' to 'unsigned __int64', possible loss of data
+     1>JAApp.cpp(246): warning C4018: '<' : signed/unsigned mismatch
+     1>JAApp.cpp(247): warning C4018: '<' : signed/unsigned mismatch
+     1>JAApp.cpp(248): warning C4018: '<' : signed/unsigned mismatch
+         ObslugaDanych.cpp
+     1>ObslugaDanych.cpp(65): warning C4018: '<' : signed/unsigned mismatch
+     1>ObslugaDanych.cpp(66): warning C4018: '<' : signed/unsigned mismatch
+     1>ObslugaDanych.cpp(67): warning C4018: '<' : signed/unsigned mismatch
+         ObslugaDll.cpp
+         ObslugaWatkow.cpp
+         TworzenieWatkow.cpp
+     1>TworzenieWatkow.cpp(11): warning C4018: '<' : signed/unsigned mismatch
+     1>TworzenieWatkow.cpp(13): warning C4018: '<' : signed/unsigned mismatch
+     1>TworzenieWatkow.cpp(19): warning C4018: '<' : signed/unsigned mismatch
+     1>TworzenieWatkow.cpp(34): warning C4018: '<' : signed/unsigned mismatch
+     1>TworzenieWatkow.cpp(36): warning C4018: '<' : signed/unsigned mismatch
+     1>TworzenieWatkow.cpp(42): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Julia\Documents\Visual Studio 2013\Projects\JASol\Release\JAApp.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Julia\Documents\Visual Studio 2013\Projects\JASol\Release\JAApp.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Julia\Documents\Visual Studio 2013\Projects\JASol\Release\JAApp.lib" /MACHINE:X86 /SAFESEH Release\CPUInfo.obj
+         Release\JAApp.obj
+         Release\ObslugaDanych.obj
+         Release\ObslugaDll.obj
+         Release\ObslugaWatkow.obj
+         Release\stdafx.obj
+         Release\TworzenieWatkow.obj
+     1>MSVCRT.lib(crtexe.obj) : error LNK2001: unresolved external symbol _main
+     1>C:\Users\Julia\Documents\Visual Studio 2013\Projects\JASol\Release\JAApp.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Julia\Documents\Visual Studio 2013\Projects\JASol\JAApp\JAApp.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:18.71

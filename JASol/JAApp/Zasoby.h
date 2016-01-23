@@ -1,0 +1,11 @@
+#define ID_DLLASM 10
+#define ID_DLLC 20
+#define ID_DANE 30
+#define ID_WYNIK 40
+#define ID_TEXTDANE 50
+#define ID_TEXTWYNIK 60
+#define ID_WATKIILOSC 70
+#define ID_WATKIWYBOR 80
+#define ID_WATKIODCZYT 90
+#define ID_WATKIZATWIERDZ 100
+#define ID_CZAS 110
